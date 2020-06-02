@@ -10,6 +10,15 @@ const baseUrl = 'src/views';
 const templateUrl = 'public/index.html';
 
  module.exports ={
+  index: {
+    entry: `${baseUrl}/index/main.js`,
+    template: templateUrl,
+    filename: 'index.html',
+    title:'首页',
+    meta:{
+      keyword:'interactive,hudong'
+    }
+  },
   interactive: {
     entry: `${baseUrl}/interactive/main.js`,
     template: templateUrl,
