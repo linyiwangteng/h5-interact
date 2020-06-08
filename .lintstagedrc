@@ -1,0 +1,8 @@
+{
+  "**/!(node_modules|dist|prod)/*.{js,vue,less}": [
+    "prettier --write"
+  ],
+  "src/**/*.{js,vue}": [
+    "vue-cli-service lint"
+  ]
+}

@@ -14,12 +14,12 @@ const routes = [
   {
     path: "/",
     name: "Index",
-    component: () => import("../pages/index")
+    component: () => import("../pages/other")
   },
   {
     path: "/other",
     name: "Other",
-    component: () => import("../pages/other")
+    component: () => import("../pages/index")
   }
 ];
 
